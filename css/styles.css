@@ -3,13 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-  /* .header{
-    display: flex;
-    flex-direction: row;
-}  */
+ 
 html{
-    font-family: 'Barlow Condensed', ;
-        font-size: 15px;}
+    font-family: 'Barlow Condensed' ;
+        font-size: 15px;
+    }
 .icon{
     margin-left: 20px;
     margin-top: 20px;
@@ -80,7 +78,7 @@ html{
 .btn h5{
     letter-spacing: 1px;
     color:   hsl(230, 11%, 40%);
-    letter-spacing: 1px; 
+    letter-spacing: 4px; 
     margin-right: 20px;
 }
 .power{
@@ -113,6 +111,6 @@ html{
     margin-top: 10px;
     color: hsl(230, 11%, 40%);
     margin-right: 10px;
-    letter-spacing: 1px;
+    letter-spacing: 3px;
     
 } 
