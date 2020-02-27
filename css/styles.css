@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  /* .header{
+    display: flex;
+    flex-direction: row;
+}  */
+html{
+    font-family: 'Barlow Condensed', ;
+        font-size: 15px;}
+.icon{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.navbar{
+      display: flex; 
+    justify-content: flex-end;
+}
+.navbar button {
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-width: 0;
+    margin: -35px 30px 0px 0px;
+}
+.containt{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+
+}
+.containt li{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.containt li:hover {background-color: #ddd;} 
+  
+ .navbar:hover .containt {display: block;} 
+  
+ .navbar:hover .btn1 {background-color: white;} 
+
+.image {
+    overflow: hidden;
+}
+.image img{
+    
+    margin-top: 40px;
+    height: 260px;
+    width: 100%;
+    margin-left: 20px;
+    object-fit: cover;
+    object-position: -12px 0px;
+    
+    
+}
+.btn button{
+    background-color: black;
+    margin-left: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    width: 50px;
+    height: 20px;
+    border-width: 0;
+    
+
+}
+.btn{
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.btn h5{
+    letter-spacing: 1px;
+    color:   hsl(230, 11%, 40%);
+}
+.power{
+   
+    margin: 20px 30px 20px 20px;
+}
+.power h5{
+    margin-top: 10px;
+    color: hsl(230, 11%, 40%) ;
+    text-align: left;
+}
+.power h2{
+    text-align: left;
+}
+.demo{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 30px 40px 20px;
+}
+.demo button{
+    background-color: hsl(0, 100%, 68%);
+    height: 30px;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 5px;
+    width: 120px;
+}
+.demo h5{
+    margin-top: 10px;
+    color: hsl(230, 11%, 40%);
+}
