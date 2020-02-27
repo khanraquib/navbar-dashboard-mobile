@@ -80,7 +80,7 @@ html{
 .btn h5{
     letter-spacing: 1px;
     color:   hsl(230, 11%, 40%);
-    /* letter-spacing: 2px; */
+    letter-spacing: 1px; 
     margin-right: 20px;
 }
 .power{
@@ -112,6 +112,7 @@ html{
 .demo h5{
     margin-top: 10px;
     color: hsl(230, 11%, 40%);
-    margin-right: 20px;
+    margin-right: 10px;
+    letter-spacing: 1px;
     
 } 
