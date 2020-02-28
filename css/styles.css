@@ -72,14 +72,11 @@ html{
 }
 .btn{
     margin-right: 20px;
-    /* display: flex; */
-    /* justify-content: space-between; */
     margin-top: 60px;
 }
 .btn h5{
     color:   hsl(230, 11%, 40%);
     letter-spacing: 3px; 
-    /* margin-right: -10px; */
      margin-left: 20px; 
 }
 .power{
@@ -95,8 +92,7 @@ html{
     text-align: left;
 }
 .demo{
-    /* display: flex;
-    justify-content: space-between; */
+   
     margin: 20px 30px 40px 20px;
 }
 .demo button{
